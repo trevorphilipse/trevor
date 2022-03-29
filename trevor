@@ -1,0 +1,5 @@
+systemctl stop aptos-fullnode
+systemctl disable aptos-fullnode
+rm /etc/systemd/system/aptos-fullnode.service
+rm -rf $HOME/aptos
+rm -rf /opt/aptos
